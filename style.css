@@ -1,11 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kanit:wght@500;700&display=swap');
+
 body{
     padding: 0;
     margin: 0;
     background-color: #F1F1F1;
 }
-.container{
+
+/* HEADER */
+.navbar{
+    display: flex;
+    height: 62px;
+    justify-content: space-between;
     padding: 12px 80px 12px 80px;
-    background-color: red;
-    height: 1920px;
-    width: 1080px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    height: 22px;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo img{
+    height: 22px;
+    width: 18.68px;
+}
+
+.logo p{
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Kanit", sans-serif;
+}
+
+.menu{
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #081E34;
+    width: 500;
+    size: 14px;
+    line-height: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.menu button{
+    background-color: #081E341F;
+    border-radius: 100px;
+    height: 32px;
+    width: 102px;
+    border: none;
+    color: #081E34;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+
+
+/* MAIN */
+
+
+
+/* INFO PAGE */
+
+.info_page{
+    height: 620px;
+    padding: 90px 80px 90px 80px;
+    gap: 165px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_page_part1 {
+    width: 495px;
+    height: 366px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info_title {
+    font-family: "Kanit", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+}
+
+.info_desc{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+}
+
+.info_btn{
+    width: 144px;
+    height: 50px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border-radius: 100px;
+    opacity: 0px;
+    background-color: #712FFF;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.info_photo{
+    width: 619px;
+    height: 420px;
+    border-radius: 32px;
+}
+
+.photo1{
+    position: absolute;
+    width: 139px;
+    height: 181px;
+    top: 190px;
+    right: 420px;
+
+}
+
+.photo2{
+    position: absolute;
+    width: 148px;
+    height: 172px;
+    top: 400px;
+    right: 200px;
 }
