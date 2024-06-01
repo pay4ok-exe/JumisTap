@@ -20,7 +20,7 @@ This project is built with HTML, CSS, and JavaScript. It uses the following reso
 To run this project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-username/jumystap.git
+git clone https://github.com/pay4ok-exe/JumysTap.git
 cd jumystap
 # Open index.html in your web browser
 ```
