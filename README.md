@@ -45,6 +45,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Contact
 
-- **GitHub**: [your-github](https://github.com/your-username)
+- **GitHub**: [pay4ok-exe](https://github.com/pay4ok-exe)
 - **LinkedIn**: [your-linkedin](https://linkedin.com/in/your-linkedin)
-- **Email**: your-email@example.com
+- **Email**: ospanakim05@gmail.com
