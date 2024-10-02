@@ -91,3 +91,71 @@ a {
   border-radius: 100px;
   border: none;
 }
+
+/* Hero */
+
+.hero {
+  margin: 100px 0;
+}
+
+.hero__content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__left {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.section__title {
+  font-family: "Kanit", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.section__desc {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hero__btn {
+  padding: 16px 24px;
+  margin-top: 16px;
+  border-radius: 100px;
+  background-color: #712fff;
+  color: white;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+}
+
+.hero__right {
+  position: relative;
+  width: 619px;
+  height: 420px;
+  border-radius: 32px;
+  background-image: url(./images/hero_photo.png);
+}
+
+.hero__dollar {
+  position: absolute;
+  left: 213px;
+  top: 0;
+}
+
+.hero__fire {
+  position: absolute;
+  top: 217px;
+  right: 34px;
+}
