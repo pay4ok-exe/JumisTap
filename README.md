@@ -11,6 +11,7 @@ JumysTap is a modern web platform designed to connect job seekers with potential
 ## Technologies
 
 This project is built with HTML, CSS, and JavaScript. It uses the following resources:
+
 - Google Fonts for typography.
 - Icons from Icons8.
 - Graphics from Craftwork Design.
@@ -46,5 +47,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Contact
 
 - **GitHub**: [pay4ok-exe](https://github.com/pay4ok-exe)
-- **LinkedIn**: [your-linkedin](https://linkedin.com/in/your-linkedin)
+- **LinkedIn**: [your-linkedin](https://www.linkedin.com/in/pay4ok-exe)
 - **Email**: ospanakim05@gmail.com
